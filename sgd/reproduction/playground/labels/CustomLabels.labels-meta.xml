@@ -41875,4 +41875,11 @@ Certain factors can affect the timing of when Premium Vacation might become avai
         <shortDescription>WALTEST</shortDescription>
         <value>MyValue</value>
     </labels>
+    <labels>
+        <fullName>WALTEST2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WALTEST</shortDescription>
+        <value>WALTEST</value>
+</labels>
 </CustomLabels>
