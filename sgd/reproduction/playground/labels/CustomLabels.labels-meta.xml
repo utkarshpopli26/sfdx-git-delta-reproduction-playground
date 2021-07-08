@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
+        <fullName>GRSA_FundDetailsHeadingLDV2</fullName>
+        <categories>GRSA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GRSA_FundDetailsHeading</shortDescription>
+        <value>MyValue</value>
+    </labels>
+    <labels>
         <fullName>Incapacitated</fullName>
         <language>en_US</language>
         <protected>false</protected>
@@ -130,7 +138,7 @@
         <fullName>ADV_Advisor_Delegation_Trigger_Message</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>Advisor Delegation Trigger Message 1</shortDescription>
+        <shortDescription>Advisor Delegation Trigger Message  Test</shortDescription>
         <value>MyValue</value>
     </labels>
     <labels>
