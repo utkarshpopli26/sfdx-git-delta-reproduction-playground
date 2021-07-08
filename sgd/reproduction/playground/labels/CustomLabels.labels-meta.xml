@@ -13415,7 +13415,7 @@ There may be exceptions to this rule if:
         <categories>GRSA</categories>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>GRSA_Fees</shortDescription>
+        <shortDescription>GRSA_FeesTEST</shortDescription>
         <value>MyValue</value>
     </labels>
     <labels>
@@ -41926,6 +41926,14 @@ Certain factors can affect the timing of when Premium Vacation might become avai
     </labels>
     <labels>
         <fullName>GRSA_FundDetailsHeadingLDV</fullName>
+        <categories>GRSA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GRSA_FundDetailsHeading</shortDescription>
+        <value>MyValue</value>
+    </labels>
+    <labels>
+        <fullName>GRSA_FundDetailsHeadingLDV1</fullName>
         <categories>GRSA</categories>
         <language>en_US</language>
         <protected>false</protected>
