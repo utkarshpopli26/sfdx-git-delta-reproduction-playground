@@ -41923,5 +41923,13 @@ Certain factors can affect the timing of when Premium Vacation might become avai
         <protected>false</protected>
         <shortDescription>WALTEST</shortDescription>
         <value>WALTEST</value>
-</labels>
+    </labels>
+    <labels>
+        <fullName>GRSA_FundDetailsHeadingLDV</fullName>
+        <categories>GRSA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GRSA_FundDetailsHeading</shortDescription>
+        <value>MyValue</value>
+    </labels>
 </CustomLabels>
