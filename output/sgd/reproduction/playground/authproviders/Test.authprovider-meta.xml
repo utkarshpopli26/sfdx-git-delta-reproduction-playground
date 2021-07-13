@@ -7,5 +7,5 @@
     <providerType>Salesforce</providerType>
     <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
     <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
-    <sendSecretInApis>true</sendSecretInApis>
+    <sendSecretInApis>false</sendSecretInApis>
 </AuthProvider>
