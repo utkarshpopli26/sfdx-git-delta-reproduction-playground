@@ -1,0 +1,7 @@
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Order</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>TestPlural</masterLabel>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>
