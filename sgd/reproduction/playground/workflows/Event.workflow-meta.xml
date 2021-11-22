@@ -5,7 +5,7 @@
         <description>awesome</description>
         <protected>false</protected>
         <recipients>
-            <field>ContactEmail</field>
+            <field>OtherEmail</field>
             <type>email</type>
         </recipients>
         <senderAddress>awesome@awesome.com</senderAddress>
