@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+
+      - name: Install SFDX CLI
+        run: npm install -g sfdx-cli
+
+      - name: Install SGD
+        run: echo y | sfdx plugins:install sfdx-git-delta
+
+      - name: Generate delta
+        run: |
+          sfdx sgd:source:delta -d -f "origin/master" -o "output" -s "sgd/reproduction/playground" -r "."
+          cat output/package/package.xml
+          cat output/destructiveChanges/destructiveChanges.xml
+          tree output/sgd/reproduction/playground
