@@ -32,7 +32,7 @@
         <allowPause>true</allowPause>
         <fields>
             <name>Translated_Text</name>
-            <fieldText>This is the original text without a translation</fieldText>
+            <fieldText>This is the original text without a translation, modified</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
         <showFooter>true</showFooter>
