@@ -28,7 +28,7 @@
     </customSettingAccesses>
     <externalDataSourceAccesses>
         <externalDataSource>ExternalDataSource</externalDataSource>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </externalDataSourceAccesses>
     <fieldPermissions>
         <field></field>
