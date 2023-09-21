@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
-        <fullName>CustomLabel1</fullName>
+        <fullName>CustomLabel3</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Sample Custom Label 1</shortDescription>
@@ -12,6 +12,6 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Sample Custom Label 2</shortDescription>
-        <value>Custom Label 2 can store different text. </value>
+        <value>Custom Label 2 can store different text. Change here</value>
     </labels>
 </CustomLabels>
