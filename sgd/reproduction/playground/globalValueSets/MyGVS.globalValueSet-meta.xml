@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Updated:This is a basic global value set.</description>
+    <masterLabel>UpsellGlobal</masterLabel>
+    <customValue>
+        <fullName>Maybe</fullName>
+        <default>false</default>
+        <label>Maybe</label>
+    </customValue>
+    <customValue>
+        <fullName>No</fullName>
+        <default>false</default>
+        <label>No</label>
+    </customValue>
+    <customValue>
+        <fullName>Yes</fullName>
+        <default>false</default>
+        <label>Yes</label>
+    </customValue>
+    <sorted>false</sorted>
+</GlobalValueSet>
