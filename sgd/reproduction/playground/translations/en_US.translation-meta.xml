@@ -12,10 +12,6 @@
         <name>Application</name>
     </customApplications>
     <customLabels>
-        <label>AnotherValue</label>
-        <name>New Label</name>
-    </customLabels>
-    <customLabels>
         <label>Value</label>
         <name>New Label</name>
     </customLabels>
