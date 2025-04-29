@@ -5,6 +5,6 @@
     <userLicense>Salesforce</userLicense>
     <layoutAssignments>
         <layout>Account-AccountLayout</layout>
-        <recordType>Account.DefaultRT</recordType>
+        <recordType>Account.OtherRT</recordType>
     </layoutAssignments>
 </Profile>

@@ -7,16 +7,8 @@
         <apexClass>ClassOne</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>ClassTwo</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ClassThree</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
     <layoutAssignments>
         <layout>Account-AccountLayout</layout>
-        <recordType>Account.DefaultRT</recordType>
+        <recordType>Account.OtherRT</recordType>
     </layoutAssignments>
 </Profile>

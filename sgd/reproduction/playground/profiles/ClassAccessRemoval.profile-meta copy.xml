@@ -7,8 +7,4 @@
         <apexClass>ClassOne</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>ClassTwo</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
 </Profile>
