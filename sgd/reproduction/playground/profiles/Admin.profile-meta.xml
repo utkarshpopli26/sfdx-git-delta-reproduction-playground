@@ -31,7 +31,7 @@
   </classAccesses>
   <classAccesses>
     <apexClass>DL_SendDetailsToCCMSBatch</apexClass>
-    <enabled>true</enabled>
+    <enabled>false</enabled>
   </classAccesses>
   <classAccesses>
     <apexClass>DL_SendDetailsToCCMSBatchSchedular</apexClass>
@@ -10807,7 +10807,7 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>DL_Family_First_Transaction__c.DL_Abridge_Reason__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -10955,7 +10955,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>DL_Portal_Details_Table__c.DL_Child_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -11170,7 +11170,7 @@
     <readable>true</readable>
   </fieldPermissions>
   <fieldPermissions>
-    <editable>true</editable>
+    <editable>false</editable>
     <field>DL_Portal_Details_Table__c.DL_Allergy_Type__c</field>
     <readable>true</readable>
   </fieldPermissions>
@@ -33371,7 +33371,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>DEL_Form_Responses__c.Checkbox45__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -54355,7 +54355,7 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>DEL_Records_Request__c.First_Owner__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -101690,7 +101690,7 @@
     <allowRead>true</allowRead>
     <modifyAllRecords>false</modifyAllRecords>
     <object>RTTable__c</object>
-    <viewAllRecords>false</viewAllRecords>
+    <viewAllRecords>true</viewAllRecords>
   </objectPermissions>
 <objectPermissions>
     <allowCreate>true</allowCreate>
@@ -101910,7 +101910,7 @@
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
-        <allowDelete>false</allowDelete>
+        <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
@@ -102011,7 +102011,7 @@
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>false</allowEdit>
-        <allowRead>true</allowRead>
+        <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>DEL_Batch_Dashboard__c</object>
         <viewAllRecords>false</viewAllRecords>
@@ -102307,7 +102307,7 @@
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
-        <allowDelete>false</allowDelete>
+        <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
@@ -106256,7 +106256,7 @@
 
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
 	  <pageAccesses>
         <apexPage>DL_ClosingSummaryPage</apexPage>
@@ -111339,7 +111339,7 @@
   </tabVisibilities>
   <tabVisibilities>
     <tab>Loop__Text_Snippet__c</tab>
-    <visibility>Hidden</visibility>
+    <visibility>DefaultOn</visibility>
   </tabVisibilities>
     <tabVisibilities>
         <tab>DL_Unit__c</tab>
@@ -111476,7 +111476,7 @@
     
 
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ChatterFileLink</name>
     </userPermissions>
     <userPermissions>
